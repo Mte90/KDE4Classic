@@ -231,7 +231,12 @@ img.alignleft {
 	padding-top:4px;
 	padding-bottom:2px;
 }
-
+.post_image {
+	width:630px;
+}
+.news_post_image {
+	width: 100%;
+}
 .post_short {
 	background:url(images/hr.png) no-repeat center bottom;
 	padding-bottom:4px;
@@ -247,7 +252,7 @@ img.alignleft {
 	padding-top:2px;
 	padding-bottom:2px;
 	padding-left:5px;
-	font-size:10px;
+	font-size:12px;
 	text-shadow:0 0 3px #000;
 }
 .page_center {display:none;}
@@ -256,7 +261,7 @@ img.alignleft {
 .page_header {margin-top:8px;}
 .page_right {padding-left:230px;}
 .post_header {margin-bottom:8px;}
-
+.group_page {float: left;margin-top: -16px;}
 .footer {
 	height:39px;
 	font-family:'Iceland', sans-serif;
@@ -375,8 +380,9 @@ img.alignleft {
 }
 
 .comment_title,.comment_info {text-shadow:0 0 3px #000;padding-bottom:4px;}
-.post_back,.post_changed {font-size:14px;padding-top:6px;}
-.post_changed {font-weight:bold;}
+.post_back,.post_changed {font-size:14px;}
+.post_changed {font-weight:bold;padding-top:18px;}
+.post_back {line-height: 30px;}
 
 .comment_title, .comment_info {background:none;border:none;}
 
