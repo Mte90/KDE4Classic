@@ -44,7 +44,7 @@ if (defined('WB_PATH')) {
 	<link rel="alternate" type="application/rss+xml" title="Mte90.Net" hreflang="it" href="<?php echo WB_URL; ?>/lepton/modules/news/rss.php?page_id=2" />
 	<link href='http://fonts.googleapis.com/css?family=Play|Iceland' rel='stylesheet' type='text/css'/>
 	<!--[if lt IE 10]>
-	<style>#content {margin:27px;}</style>
+	<link href="<?php echo TEMPLATE_DIR; ?>/ie.css" rel="stylesheet" type="text/css" media="screen" />
 	<![endif]-->
 	<?php
 	/**
