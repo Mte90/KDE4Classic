@@ -20,26 +20,49 @@ p,.comment_text,.mod_download_gallery_th_f,button.mod_download_gallery_btn_f, bu
 
 /* box-shadow */
 textarea, input[type=text] {
-/*filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3);*/
+	/*filter: progid:DXImageTransform.Microsoft.Shadow(color='#7F000000', Direction=145, Strength=3);*/
 }
 
 /* gradient */
 input[type=submit],input[type=button],input[type=reset] {
 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#A5B5C0', endColorstr='#325871');
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#A5B5C0', endColorstr='#325871')";
+	background-image:-ms-linear-gradient(top, #A5B5C0, #325871);
 	zoom:1;
 }
 
 .sidebar input[type=text] {
 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#D5D5D5');
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#D5D5D5')";
+	background-image:-ms-linear-gradient(#FFFFFF 4.3%, #F4F4F4 8.5%, #F4F4F4 91.6%, #D5D5D5 9.6%);
 	zoom:1;
 }
 
 root:input[type=submit],root:input[type=button],root:input[type=reset],.sidebar input[type=text] {
-filter: none\0/IE9;
+	filter: none\0/IE9;
 }
 
+/* background rgba*/
+textarea, input[type=text] {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33181818,endColorstr=#33181818);
+	zoom: 1;
+}
+.post {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F627A8E,endColorstr=#7F627A8E);
+	zoom: 1;
+}
+.footer {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FA1AFBA,endColorstr=#7FA1AFBA);
+	zoom: 1;
+}
+.sidebar input[type=text] {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF);
+	zoom: 1;
+}
+.comment_text,.mod_download_gallery_th_f {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FA1AFBA,endColorstr=#7FA1AFBA);
+	zoom: 1;
+}
 /*
 <!--[if gte IE 9]>
 <style type="text/css">
