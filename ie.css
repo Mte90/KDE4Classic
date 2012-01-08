@@ -1,5 +1,6 @@
 #content {margin:27px;}
 /* text-shadow */
+/*
 h1,h2,textarea, input[type=text],a,#header a:hover,input[type=submit],input[type=button],input[type=reset],.post_date,.public_info,.sidlink,.comment_title,.comment_info,#menu li.menu-current a {
 	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=0, OffY=0, Color=#000000)
 	progid:DXImageTransform.Microsoft.Glow(Strength=3, Color=#000000);;
@@ -10,14 +11,16 @@ p,.comment_text,.mod_download_gallery_th_f,button.mod_download_gallery_btn_f, bu
 	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=0, OffY=0, Color=#000000)
 	progid:DXImageTransform.Microsoft.Glow(Strength=14, Color=#000000);;
 	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(Color=#000000, OffX=0, OffY=0) progid:DXImageTransform.Microsoft.Glow(Strength=14, Color=#000000);";
-}
+}*/
 
 #header .description {
 	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=1, OffY=1, Color=#000000)
-	progid:DXImageTransform.Microsoft.Glow(Strength=14, Color=#000000);;
-	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(Color=#000000, OffX=1, OffY=1) progid:DXImageTransform.Microsoft.Glow(Strength=14, Color=#000000);";
+	progid:DXImageTransform.Microsoft.Glow(Strength=1, Color=#000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(Color=#000000, OffX=1, OffY=1) progid:DXImageTransform.Microsoft.Glow(Strength=1, Color=#000000);";
 }
-
+#header .description:not([dummy]){
+	filter: none;
+}
 /* box-shadow */
 textarea, input[type=text] {
 	/*filter: progid:DXImageTransform.Microsoft.Shadow(color='#7F000000', Direction=145, Strength=3);*/
