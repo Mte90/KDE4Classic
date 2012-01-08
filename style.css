@@ -46,6 +46,7 @@ h3 {font-size:1.3em;}
 p {
 	color:#041119;
 	text-shadow:0 0 14px #fff;
+	margin-bottom:10px;
 }
 
 textarea, input[type=text] {
@@ -90,7 +91,6 @@ ul {margin-left:27px;}
 input[type=submit],input[type=button],input[type=reset] {
 	background-image:-moz-linear-gradient(center top, #A5B5C0, #325871);
 	background-image:-webkit-linear-gradient(top, #A5B5C0, #325871);
-	background-image:-ms-linear-gradient(top, #A5B5C0, #325871);
 	border-radius:6px;
 	color:#000;
 	text-shadow:0 0 3px #fff;
@@ -319,7 +319,6 @@ img.alignleft {
 	background-color:rgba(255, 255, 255, 0.8);
 	background-image:-moz-linear-gradient(#FFFFFF 4.3%, #F4F4F4 8.5%, #F4F4F4 91.6%, #D5D5D5 9.6%);
 	background-image:-webkit-linear-gradient(#FFFFFF 4.3%, #F4F4F4 8.5%, #F4F4F4 91.6%, #D5D5D5 9.6%);
-	background-image:-ms-linear-gradient(#FFFFFF 4.3%, #F4F4F4 8.5%, #F4F4F4 91.6%, #D5D5D5 9.6%);
 	color:#000;
 	border-color:rgba(114,114,114, 0.6) rgba(126,126,126, 0.6) rgba(165,165,165, 0.6);
 	box-shadow:0px 0px 3px rgba(0, 0, 0, 0.5) inset;
@@ -409,8 +408,9 @@ button.mod_download_gallery_btn_f, button.mod_download_gallery_btn_ra_f  {
 
 blockquote {
 	margin:15px 30px 0 10px;
-	padding-left:20px;
+	padding-left:10px;
 	border-left:5px solid #ddd;
+	background-color:rgba(255, 255, 255, 0.3);
 }
 
 .editpage {position:absolute;z-index:50;margin-left: -64px;margin-top: 78px;}
