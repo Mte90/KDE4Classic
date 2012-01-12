@@ -41,7 +41,7 @@ if (defined('WB_PATH')) {
 	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/jquery.cssAnimate.js"></script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eef4ee94ca647e4"></script>
 	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/script.js"></script>
-	<link rel="alternate" type="application/rss+xml" title="Mte90.Net" hreflang="it" href="<?php echo WB_URL; ?>/lepton/modules/news/rss.php?page_id=2" />
+	<link rel="alternate" type="application/rss+xml" title="Mte90.Net" hreflang="it" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" />
 	<link href='http://fonts.googleapis.com/css?family=Play|Iceland' rel='stylesheet' type='text/css'/>
 	<!--[if lt IE 10]>
 	<link href="<?php echo TEMPLATE_DIR; ?>/ie.css" rel="stylesheet" type="text/css" media="screen" />
@@ -116,7 +116,7 @@ if (defined('WB_PATH')) {
 					</div>
 				</div>
 				<?php page_content(2); ?>
-				<a class="rss" href="<?php echo WB_URL; ?>/lepton/modules/news/rss.php?page_id=2" title="RSS Feed"></a>
+				<a class="rss" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" title="RSS Feed"></a>
 			</div>
 		</div>
 

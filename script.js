@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	 $.backstretch("/lepton/templates/KDE4Classic/images/background.jpg", {speed: 10});
+	 $.backstretch("/templates/KDE4Classic/images/background.jpg", {speed: 10});
  //ACCORDION BUTTON ACTION
  $('.menu-expand').mouseover(function(e) {
 	 e.preventDefault();
@@ -10,7 +10,7 @@ $(document).ready(function() {
  });
  $('.header-').cssAnimate({'top':'0px'},2500);
 
-$.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=mte90net&count=4&callback=?",
+$.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=mte90net&count=2&callback=?",
 	function(data){
 		$("#tweet").hide();
 		$.each(data, function(i,item){
