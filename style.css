@@ -407,10 +407,20 @@ button.mod_download_gallery_btn_f, button.mod_download_gallery_btn_ra_f  {
 /* Begin Various Tags & Classes */
 
 blockquote {
-	margin:15px 30px 0 10px;
-	padding-left:10px;
+	margin: 15px 30px 10px 1px;
+	padding: 2px 2px 1px 10px;
 	border-left:5px solid #ddd;
 	background-color:rgba(255, 255, 255, 0.3);
+	width: 644px;
+}
+blockquote p{
+	color:white;
+	word-wrap:break-word;
+}
+blockquote pre {
+	color:white;
+	word-wrap:break-word;
+	white-space: pre-wrap;
 }
 
 .editpage {position:absolute;z-index:50;margin-left: -64px;margin-top: 78px;}
