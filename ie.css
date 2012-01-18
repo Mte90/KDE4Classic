@@ -42,7 +42,7 @@ input[type=submit],input[type=button],input[type=reset] {
 }
 
 root:input[type=submit],root:input[type=button],root:input[type=reset],.sidebar input[type=text] {
-	filter: none\0/IE9;
+	filter: none;
 }
 
 /* background rgba*/
@@ -66,12 +66,3 @@ textarea, input[type=text] {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FA1AFBA,endColorstr=#7FA1AFBA);
 	zoom: 1;
 }
-/*
-<!--[if gte IE 9]>
-<style type="text/css">
-.gradient {
-	filter: none\0/IE9;
-}
-</style>
-<![endif]-->
-*/
