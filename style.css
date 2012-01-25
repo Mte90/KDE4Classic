@@ -1,4 +1,9 @@
-/**
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <pre>/**
  *  @template       KDE4Classic
  *  @version        see info.php of this template
  *  @author         Mte90
@@ -25,7 +30,7 @@ body {
 ::-moz-selection {background-color:rgba(0, 0, 0, 0.5);color:#fff;}
 ::selection {background-color:rgba(0, 0, 0, 0.5);color:#fff;}
 hr {display:none;}
-h1, h2, h3 {font-weight:bold;}
+h1, h2, h3, b {font-weight:bold;}
 h1 {font-size:22px;padding-bottom:4px;text-shadow:0 0 3px #000;}
 h2 {font-size:1.6em;text-shadow:0 0 3px #000;margin-top:3px;}
 h3 {font-size:1.3em;}
@@ -288,7 +293,7 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 	-webkit-border-image:url(images/side.png) 12 18 12 18 repeat;
 }
 
-/* Module News & Download Gallery */
+/* Module News &amp; Download Gallery */
 
 .comment_header {
 	background:url(images/hr.png) no-repeat left top;
@@ -325,7 +330,7 @@ button.mod_download_gallery_btn_f, button.mod_download_gallery_btn_ra_f {border:
 	text-shadow:0 0 3px #000;
 }
 
-/* Begin Various Tags & Classes */
+/* Begin Various Tags &amp; Classes */
 
 blockquote {
 	margin: 15px 30px 10px 1px;
@@ -369,4 +374,7 @@ blockquote pre {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	.head_link {font-size:62px;}
 	#header .description {font-size:24px;text-shadow:1px 1px 24px #fff;}
-}
+}</pre>
+    <br>
+  </body>
+</html>
