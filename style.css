@@ -23,7 +23,6 @@ body {
 	font-size:11px;
 	font-family:"Liberation Sans","Bitstream Vera Sans",sans-serif;
 	color:#333;
-	text-align:center;
 	color:#fff;
 }
 
@@ -152,7 +151,7 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 .post {
 	background-color:rgba(98, 122, 142, 0.5);
 	text-align:justify;
-	padding:8px;
+	padding: 0 8px 8px;
 	font-size:12px;
 	margin:-17px;
 	border-radius:2px;
@@ -211,6 +210,7 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 	box-shadow:0px -1px 5px rgba(0, 0, 0, 0.78);
 	border-radius:4px 4px 0px 0px;
 	clear:both;
+	margin-bottom: -8px;
 }
 
 .footer_left {
@@ -354,7 +354,7 @@ blockquote pre {
 /* Sidebar Menu */
 
 .navigation {padding-left:10px;background:transparent;display:block;padding-top:8px;font:18px 'Play', sans-serif;text-transform:uppercase;}
-#menu ,#menu ul {list-style:none;}
+#menu ,#menu ul {list-style:none;margin-left: -27px;}
 .menu-top,.menu-expand ul {margin:0;}
 #menu a {display:block;padding:4px 10px 6px 10px;}
 #menu li li {margin:0 0 0 5px;}
