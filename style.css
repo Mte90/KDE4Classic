@@ -102,20 +102,21 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 /* Template */
 
 .head_link {
-	font-size:60px;
+	font-size:64px;
 	padding-left:10px;
 	color:#0082A2;
 	font-family:'Play', sans-serif;
-	margin-top:-4px;
+	margin-top:-2px;
+	line-height: 66px;
 }
 
 #header .description {
 	font-family:'Iceland', sans-serif;
 	padding-left:10px;
-	margin-top:-4px;
-	color:#111111;
+	margin-top:-3px;
+	color:#111;
 	font-weight:bolder;
-	font-size:21px;
+	font-size:22px;
 	text-shadow:1px 1px 14px #000;
 }
 
@@ -151,7 +152,7 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 .post {
 	background-color:rgba(98, 122, 142, 0.5);
 	text-align:justify;
-	padding: 0 8px 8px;
+	padding: 2px 8px 8px;
 	font-size:12px;
 	margin:-17px;
 	border-radius:2px;
