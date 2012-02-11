@@ -114,6 +114,8 @@ if (defined('WB_PATH')) {
 					</div>
 				</div>
 				<?php page_content(2); ?>
+				<a class="opendesktop" href="http://opendesktop.org/usermanager/search.php?username=Mte90" title="OpenDesktop Profile"></a>
+				<a class="github" href="https://github.com/Mte90" title="Github Profile"></a>
 				<a class="rss" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" title="RSS Feed"></a>
 			</div>
 		</div>

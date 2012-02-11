@@ -245,12 +245,25 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 	background-image:url(images/icons.png);
 }
 
-.rss {
+.rss, .opendesktop, .github {
 	float: right;
 	height: 60px;
-	margin-top: -64px;
 	width: 60px;
-	background-image:url(images/akregator.png);
+	background-image:url(images/icon.png);
+}
+
+.opendesktop {
+	margin-top: -220px;
+	background-position:0px 64px;
+}
+
+.github {
+	margin-top: -140px;
+	background-position:0px 122px;
+}
+
+.rss {
+	margin-top: -64px;
 }
 
 .font {font-family:'Play', sans-serif;}
