@@ -99,7 +99,7 @@ if (defined('WB_PATH')) {
 					<form class="searchform" action="<?php echo WB_URL; ?>/search/index.php" method="get">
 						<input type="hidden" name="referrer" value="<?php echo defined('REFERRER_ID') ? REFERRER_ID : PAGE_ID; ?>" />
 						<div><input type="text" value="" name="string" id="s" style="width:180px;"/>
-						<input type="image" src="<?php echo TEMPLATE_DIR; ?>/images/search.png" alt="search" name="wb_search" align="top" class="searchsubmit" />
+						<input type="image" src="<?php echo TEMPLATE_DIR; ?>/images/search.png" alt="Search" title="Search" name="wb_search" align="top" class="searchsubmit" />
 						</div>
 					</form>
 				</div>
