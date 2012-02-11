@@ -37,15 +37,9 @@ if (defined('WB_PATH')) {
 	<?php simplepagehead();?>
 	<meta name="author" content="http://www.mte90.net" />
 	<script src="<?php echo WB_URL; ?>/modules/lib_jquery/jquery-core/jquery-core.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/jquery.backstretch.js"></script>
-	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/jquery.cssAnimate.js"></script>
+	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/js.php"></script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eef4ee94ca647e4"></script>
-	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/script.js"></script>
 	<link rel="alternate" type="application/rss+xml" title="Mte90.Net" hreflang="it" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" />
-	<link href='http://fonts.googleapis.com/css?family=Play|Iceland' rel='stylesheet' type='text/css'/>
-	<!--[if lt IE 10]>
-	<link href="<?php echo TEMPLATE_DIR; ?>/ie.css" rel="stylesheet" type="text/css" media="screen" />
-	<![endif]-->
 	<?php
 	/**
 	 *	Automatically include optional WB module files (frontend.css, frontend.js)
@@ -66,6 +60,10 @@ if (defined('WB_PATH')) {
 	}
 	?>
 	<link href="<?php echo TEMPLATE_DIR; ?>/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Play|Iceland' rel='stylesheet' type='text/css'/>
+	<!--[if IE]>
+	<link href="<?php echo TEMPLATE_DIR; ?>/ie.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-27938703-1']);
