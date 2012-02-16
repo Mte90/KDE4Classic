@@ -4,8 +4,7 @@ $(document).ready(function() {
 	$('.menu-expand').mouseout(function(e) {$(this).find('ul').stop(true, true).slideUp('normal');});
 	$('.header-').cssAnimate({'top':'0px'},2500);
 
-$.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=mte90net&count=2&callback=?",
-	function(data){
+	$.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=mte90net&count=3&callback=?", function(data){
 		$("#tweet").hide();
 		$.each(data, function(i,item){
 			ct = ' '+item.text.replace(/http:\/\/\S+/g,'<a href="$&" target="_blank">$&</a>');
@@ -15,4 +14,5 @@ $.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=mte90net&c
 		});
 		$("#tweet").fadeIn('slow');
 	});
+
 });
