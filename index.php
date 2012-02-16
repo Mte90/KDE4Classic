@@ -4,7 +4,7 @@
  *  @template       KDE4Classic
  *  @version        see info.php of this template
  *  @author         Mte90
- *  @copyright      2010-2011 Mte90.net
+ *  @copyright      2010-2012 Mte90.net
  *  @license        GPL
  *  @license terms  see info.php of this template
  *  @platform       see info.php of this template
@@ -109,14 +109,15 @@ if (defined('WB_PATH')) {
 		<div class="sidebar">
 			<div class="sidebar-box">
 				<div class="navigation">
+				<div class="link"><a class="opendesktop" href="http://opendesktop.org/usermanager/search.php?username=Mte90" title="OpenDesktop Profile"></a>
+				<br/><a class="github" href="https://github.com/Mte90" title="Github Profile"></a>
+				<br/><a class="rss" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" title="RSS Feed"></a></div>
 					<div id="menu">
 						<?php show_menu2(0, SM2_ROOT, SM2_ROOT+1,SM2_ALL); ?>
 					</div>
 				</div>
 				<?php page_content(2); ?>
-				<a class="opendesktop" href="http://opendesktop.org/usermanager/search.php?username=Mte90" title="OpenDesktop Profile"></a>
-				<a class="github" href="https://github.com/Mte90" title="Github Profile"></a>
-				<a class="rss" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" title="RSS Feed"></a>
+
 			</div>
 		</div>
 

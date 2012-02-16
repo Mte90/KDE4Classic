@@ -1,9 +1,4 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  </head>
-  <body>
-    <pre>/**
+/**
  *  @template       KDE4Classic
  *  @version        see info.php of this template
  *  @author         Mte90
@@ -245,25 +240,28 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 	background-image:url(images/icons.png);
 }
 
+.link {
+	float:right;
+}
+
 .rss, .opendesktop, .github {
-	float: right;
+	width: 60px;
+	display: block;
 	height: 60px;
 	width: 60px;
 	background-image:url(images/icon.png);
 }
 
 .opendesktop {
-	margin-top: -220px;
 	background-position:0px 64px;
 }
 
 .github {
-	margin-top: -140px;
 	background-position:0px 122px;
 }
 
 .rss {
-	margin-top: -64px;
+
 }
 
 .font {font-family:'Play', sans-serif;}
@@ -362,13 +360,13 @@ blockquote pre {
 	white-space: pre-wrap;
 }
 
-.editpage {position:absolute;z-index:50;margin-left: -64px;margin-top: 78px;}
+.editpage {position:fixed;z-index:50;margin-left: -64px;margin-top: 78px;}
 .editpage img {margin-right:3px;}
 
 /* Sidebar Menu */
 
 .navigation {padding-left:10px;background:transparent;display:block;padding-top:8px;font:18px 'Play', sans-serif;text-transform:uppercase;}
-#menu ,#menu ul {list-style:none;margin-left: -27px;}
+#menu ,#menu ul {list-style:none;margin-left: -8px;}
 .menu-top,.menu-expand ul {margin:0;}
 #menu a {display:block;padding:4px 10px 6px 10px;}
 #menu li li {margin:0 0 0 5px;}
@@ -380,7 +378,7 @@ blockquote pre {
 
 /* AddThis */
 
-.addthis_toolbox {position:absolute;width:50px;z-index:50;margin-left:-50px;margin-top:8px;}
+.addthis_toolbox {position:fixed;width:50px;z-index:50;margin-left:-50px;margin-top:8px;}
 #at20mc a,.addthis_toolbox a {text-shadow:none}
 
 /* WebKit Hack */
@@ -388,7 +386,4 @@ blockquote pre {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	.head_link {font-size:62px;}
 	#header .description {font-size:24px;text-shadow:1px 1px 24px #fff;}
-}</pre>
-    <br>
-  </body>
-</html>
+}
