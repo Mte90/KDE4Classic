@@ -112,7 +112,8 @@ if (defined('WB_PATH')) {
 				<div class="navigation">
 				<div class="link"><a class="opendesktop" href="http://opendesktop.org/usermanager/search.php?username=Mte90" title="OpenDesktop Profile"></a>
 				<br/><a class="github" href="https://github.com/Mte90" title="Github Profile"></a>
-				<br/><a class="rss" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" title="RSS Feed"></a></div>
+				<br/><a class="rss" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" title="RSS Feed"></a>
+				<br/><a class="feed" href="http://iwinuxfeed.altervista.org/aggregatore/"><img src="http://iwinuxfeed.altervista.org/_altervista_ht/iwinux-feed.png" alt="iwinuxfeed.altervista.org"></a></div>
 					<div id="menu">
 						<?php show_menu2(0, SM2_ROOT, SM2_ROOT+1,SM2_ALL); ?>
 					</div>

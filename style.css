@@ -220,7 +220,7 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 
 /* Sidebar */
 
-.sidebar h2 {font-size:1.2em; color:#888;}
+.sidebar h2 {font-size:1.2em; color:#888;padding-top:10px;}
 .sidebar {color:#000;}
 #tweet {padding-top:6px;background:url(images/hr.png) no-repeat left top;}
 #tweet a {font-size:14px;}
@@ -260,14 +260,13 @@ input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {borde
 	background-position:0px 122px;
 }
 
-.rss {
-
+.feed {
+	margin-left: -18px;
 }
 
 .font {font-family:'Play', sans-serif;}
 .konversation {background-position:-0px -0px;}
 .twitter {background-position:-26px 0px;}
-.sidebar h2 {padding-top:10px;}
 .sidebar input[type=text]:focus,.sidebar input[type=text]:hover {border:1px solid #055A8C;box-shadow:0px 0px 3px rgba(0, 0, 0, 0.9) inset;}
 .searchform {margin:0px auto;padding:5px 3px;text-align:center;}
 .sidebar {float:right;width:260px;}
