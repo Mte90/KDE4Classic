@@ -36,6 +36,7 @@ if (defined('WB_PATH')) {
 <head>
 	<?php simplepagehead();?>
 	<meta name="author" content="http://www.mte90.net" />
+	<link rel="icon" href="<?php echo TEMPLATE_DIR; ?>/images/favicon.png" type="image/png" />
 	<script src="<?php echo WB_URL; ?>/modules/lib_jquery/jquery-core/jquery-core.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/js.php"></script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eef4ee94ca647e4"></script>
