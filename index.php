@@ -39,7 +39,7 @@ if (defined('WB_PATH')) {
 	<link rel="icon" href="<?php echo TEMPLATE_DIR; ?>/images/favicon.png" type="image/png" />
 	<script src="<?php echo WB_URL; ?>/modules/lib_jquery/jquery-core/jquery-core.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="<?php echo TEMPLATE_DIR; ?>/js.php"></script>
-	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eef4ee94ca647e4"></script>
+	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4eef4ee94ca647e4"></script>
 	<link rel="alternate" type="application/rss+xml" title="Mte90.Net" hreflang="it" href="<?php echo WB_URL; ?>/modules/news/rss.php?page_id=2" />
 	<?php
 	/**
@@ -76,8 +76,10 @@ if (defined('WB_PATH')) {
 <body>
 <div class="page">
 	<!-- AddThis Button BEGIN -->
-	<div class="addthis_toolbox addthis_default_style">
-		<a class="addthis_counter"></a>
+	<div class="addthis_toolbox addthis_default_style ">
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	<a class="addthis_button_tweet"></a>
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 	</div>
 	<!-- AddThis Button END -->
 	<div class="editpage">[[editthispage]]</div>
